@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baykan Tatil Köyü</title>
+    <link rel="stylesheet" href="style.css">
+    </link>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav style="margin-top: 20px; display: flex; justify-content: space-between;">
+            <img src="resimler/Baykan-logo.png" alt="baykan-header-logo" width="200px">
+            <div class="" style="display: inline-flex; justify-content:space-evenly; align-items: center;">
+                <a class="nav-a">Anasayfa</a>
+                <a class="nav-a">Hizmetler</a>
+                <a class="nav-a">Hakkımızda</a>
+                <a class="nav-a">Rezervasyon</a>
+            </div>
+        </nav>
+        <div id="doviz">
+            <div id="doviz-ic">
+                <h5>Döviz</h5>
+            <input type="number" name = "amount" id = "amount" placeholder="Miktar">
+            <select id = "firstCurrency">
+                                                  
+                <option selected>USD</option>
+                <option>EUR</option>
+                <option>JPY</option>
+                <option>BGN</option>
+                <option>CZK</option>
+                <option>DKK</option>
+                <option>GBP</option>          
+                <option>HUF</option>
+                <option>PLN</option>
+                <option>RON</option>
+                <option>SEK</option>
+                <option>CHF</option>
+                <option>ISK</option>
+                <option>NOK</option>          
+                <option>HRK</option>
+                <option>RUB</option>
+                <option>TRY</option>
+                <option>AUD</option>
+                <option>BRL</option>          
+                <option>CAD</option>
+                <option>CNY</option>
+                <option>HKD</option>
+                <option>IDR</option>          
+                <option>ILS</option>
+                <option>INR</option>
+                <option>KRW</option>
+                <option>MXN</option>          
+                <option>MYR</option>
+                <option>NZD</option>
+                <option>PHP</option>
+                <option>SGD</option>
+                <option>THB</option>          
+                <option>ZAR</option>
+            </select>
+            <select id = "secondCurrency">
+                                                  
+                <option>USD</option>
+                <option>EUR</option>
+                <option>JPY</option>
+                <option>BGN</option>
+                <option>CZK</option>
+                <option>DKK</option>
+                <option>GBP</option>          
+                <option>HUF</option>
+                <option>PLN</option>
+                <option>RON</option>
+                <option>SEK</option>
+                <option>CHF</option>
+                <option>ISK</option>
+                <option>NOK</option>          
+                <option>HRK</option>
+                <option>RUB</option>
+                <option selected>TRY</option>
+                <option>AUD</option>
+                <option>BRL</option>          
+                <option>CAD</option>
+                <option>CNY</option>
+                <option>HKD</option>
+                <option>IDR</option>          
+                <option>ILS</option>
+                <option>INR</option>
+                <option>KRW</option>
+                <option>MXN</option>          
+                <option>MYR</option>
+                <option>NZD</option>
+                <option>PHP</option>
+                <option>SGD</option>
+                <option>THB</option>          
+                <option>ZAR</option>
+            </select>
+            <input type="text"  name = "outputResult" id = "outputResult" placeholder = "Sonuç" readonly size="10px">
+            </div>
+        </div>
+        <div id="bodyt">
+            <a href="#" class="orta">
+                <img class="orta-gorseller"
+                    src="https://images.pexels.com/photos/1838554/pexels-photo-1838554.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="hakkımızda">
+                <div class="overlay">
+                    <h3 class="text">Hakkımızda</h3>
+                </div>
+            </a>
+            <a href="#" class="orta">
+                <img class="orta-gorseller"
+                    src="https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="hizmetlerimiz">
+                <div class="overlay">
+                    <h3 class="text">Hizmetlerimiz</h3>
+                </div>
+            </a>
+            <a href="#" class="orta">
+                <img class="orta-gorseller"
+                    src="https://images.pexels.com/photos/2696064/pexels-photo-2696064.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="mutfak">
+                <div class="overlay">
+                    <h3 class="text">Mutfak</h3>
+                </div>
+            </a>
+        </div>
+    </header>
+    <div class="hakkimizda" style="display: flex;">
+        <img src="https://images.pexels.com/photos/1488515/pexels-photo-1488515.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            alt="hakkimizda" style="width: 400px; border-radius: 10px;">
+        <div class="hakkimizda-yazi">
+            <h2>Baykan A.Ş</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ratione laudantium dolorum voluptatum accusamus commodi sunt quasi corporis? Quia fugiat, est error eos sed repellendus laborum reprehenderit nostrum nihil excepturi illo, suscipit magni natus dignissimos. Sed voluptates cupiditate officiis architecto.
+            </p>
+            <button class="btn btn-dark w-25">Devamı İçin</button>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <img src="resimler/Baykan-logo-white.png" alt="baykan-footer-logo" width="200px">
+        </div>
+        <div>
+            <a href="#">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </div>
+    </footer>
+    <script src="/Döviz/GelişmişDöviz/currency.js"></script>
+    <script src="/Döviz/GelişmişDöviz/app.js"></script>
+</body>
+
+</html>
